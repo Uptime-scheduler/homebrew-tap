@@ -9,11 +9,11 @@ class Upscan < Formula
   on_macos do
     on_arm do
       url "https://github.com/Uptime-scheduler/upscan/releases/download/v0.1.0/upscan-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "artifacts/upscan-0.1.0-aarch64-apple-darwin.tar.gz.sha256:90df14e72acac78dd382ea590d7d62f6be034ff626d06b11eefaf5ef5eef1d23"
+      sha256 "eaa7fa6f0471e536a3451c99e05b2c35a307cf1e8a5284efc46be24099b341d7"
     end
     on_intel do
       url "https://github.com/Uptime-scheduler/upscan/releases/download/v0.1.0/upscan-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "artifacts/upscan-0.1.0-x86_64-apple-darwin.tar.gz.sha256:0fa7f5adca1588bd8ff44e559df26be59a0185707f9bfe37bedea5363690dbd5"
+      sha256 "5973a636c5fd403b6a48f9bb2c511535dfdfd222448cc760fcd9e8041c442c12"
     end
   end
 
