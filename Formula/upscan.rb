@@ -3,17 +3,17 @@
 class Upscan < Formula
   desc "Scan AWS accounts for idle resources and estimate Uptime Scheduler savings"
   homepage "https://uptimescheduler.com"
-  version "0.1.0"
+  version "0.1.1"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/Uptime-scheduler/upscan/releases/download/v0.1.0/upscan-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eaa7fa6f0471e536a3451c99e05b2c35a307cf1e8a5284efc46be24099b341d7"
+      url "https://github.com/Uptime-scheduler/upscan/releases/download/v0.1.1/upscan-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "fd21a4cc3ecc8a9f898f5ed0ce4175fa42dba69bae8b17960b874d13f36982ca"
     end
     on_intel do
-      url "https://github.com/Uptime-scheduler/upscan/releases/download/v0.1.0/upscan-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5973a636c5fd403b6a48f9bb2c511535dfdfd222448cc760fcd9e8041c442c12"
+      url "https://github.com/Uptime-scheduler/upscan/releases/download/v0.1.1/upscan-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a6ee1a1c3996cf1da6883989729dcf4630c7612ecb4bd9070b67b7aab0580dee"
     end
   end
 
