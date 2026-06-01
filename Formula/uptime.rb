@@ -18,10 +18,10 @@ class Uptime < Formula
   end
 
   def install
-    bin.install "uptime"
+    bin.install "uptimectl"
   end
 
   test do
-    assert_match "uptime", shell_output("#{bin}/uptime --version")
+    assert_match "uptimectl", shell_output("#{bin}/uptimectl --version")
   end
 end
