@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Uptime < Formula
-  desc "CLI for managing Uptime Scheduler — start, stop, and schedule AWS resources"
+  desc "CLI for managing Uptime Scheduler - start, stop, and schedule AWS resources"
   homepage "https://uptimescheduler.com"
   version "1.1.0"
   license "BUSL-1.1"
